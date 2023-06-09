@@ -32,7 +32,7 @@ public class Product {
     @Column(name = "unit_price")
     private double unitPrice;
 
-    @Column(name = "unit_in_Stock")
-    private int unitInStock;
+    @Column(name = "units_in_Stock")
+    private int unitsInStock;
     
 }
